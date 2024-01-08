@@ -1,0 +1,18 @@
+h1{
+  color: rgb(241, 11, 11);
+  background-color: gold;
+}
+h4
+{
+  color: rgb(231, 235, 9);
+}
+p{
+  align-items: normal;
+}
+body
+{
+  background-color:blueviolet;
+}
+button{
+  size: 5ch;
+}
