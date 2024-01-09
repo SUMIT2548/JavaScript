@@ -1,17 +1,18 @@
-h1{
+#Heading{
   color: rgb(241, 11, 11);
   background-color: gold;
 }
-h4
+.ClassName
 {
-  color: rgb(231, 235, 9);
+  color: rgb(82, 29, 206);
 }
 p{
   align-items: normal;
+  color: #000;
 }
 body
 {
-  background-color:blueviolet;
+  background-color:aliceblue;
 }
 button{
   size: 5ch;
