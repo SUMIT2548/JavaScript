@@ -22,3 +22,17 @@ console.log(ta);  // print the first element p tag not all
 let ta1 = document.querySelectorAll("p");
 console.log(ta1);
 console.dir(ta1);
+
+let h = document.querySelector("#Heading");
+console.log(h);
+let c = document.querySelector(".ClassName");
+console.log(c);
+let cl = document.querySelectorAll(".ClassName");
+console.log(cl);
+
+let d = document.querySelector("div");
+console.log(d);
+console.log(d.innerText);
+console.log(d.tagName);
+console.log(d.innerHTML);
+console.log(d.textContent);
