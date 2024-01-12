@@ -15,14 +15,14 @@ div.style.color = "red";
 
 // insert element
 //exp-1
-/* create a button
+//create a button
 let but = document.createElement("button");
 but.innerHTML = "clickme";
 console.log(but);
 //add button 
-let div = document.querySelector("div");
-div.append(but);
-*/
+let butt = document.querySelector("div");
+butt.append(but);
+
 
 //exp-2
 // create a h2 heading 
@@ -32,6 +32,11 @@ console.log(h2);
 // add h2 heading in html 
 let div = document.querySelector("div");
 div.prepend(h2);
+
+// remove or delete element 
+let para = document.querySelector(".pa");
+console.log(para);
+para.remove();
 
 
 
