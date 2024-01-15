@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-    <button onclick="console.log('button was clicked');" > click me </button>
-    <button ondblclick="console.log('click me 2times'); alert('hello!thanks')">click 2times(double)</button>
-    <label for="fname" onchange="">Enter First name:</label>
-    <input type = text ,name="fname" >
+    <!--onclick-->
+    <button onclick=" console.log('welcome')"> click me </button> 
+    <br> <!--br = break 2 lines-->
+    <!--ondblclick-->
+    <button ondblclick="console.log('welcome! double click'); alert('thanks')">click me doble</button>    
+    <br>
+    <!--onmouseover-->
+    <div onmouseover="console.log('mouser is under the box')">this is a box</div>
+    <!--onmouseout-->
+    <div class=" box2" onmouseout="console.log('mouser is out the box')">this is a box2</div>
+
+
+    <!-- all this code are inline event handling. this is not a correct process of writre a code -->
+    <!--this is for example-->
+    
+    
 </body>
 </html>
