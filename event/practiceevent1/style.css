@@ -1,0 +1,19 @@
+.dark
+{
+    background-color: blue;
+    color: crimson;
+}
+.light
+{
+    background-color: white;
+    color :blue
+}
+
+div 
+{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
