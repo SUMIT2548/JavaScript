@@ -28,3 +28,24 @@ for(let Num of Number)
 {
     console.log("num=" + Num);
 }
+
+
+// 2D array
+let twod = [[2,5,45,75], [8,6,85,65]];
+// using for each 
+for(let num of twod)
+{
+    console.log(num);
+}
+
+let twoda = [[2,5,45,75], [8,6,85,65]];
+// using for loop
+for(let i=0; i<twoda.length;i++)
+{
+    for(let j=0; j<twoda[i].length;j++)
+    {
+       console.log(twoda[i][j]);
+       
+    }
+    console.log("");
+}
