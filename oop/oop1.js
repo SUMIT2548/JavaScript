@@ -1,12 +1,30 @@
 // create a object 
 //type1
-const student = {
+let student = {
     firstname : "Sumit",
     lastname : "Saha",
     marks : 98,
-    printmarks : () => {
-        console.log("marks=",this.marks);
+    // create a normal function
+    printmarks : function () {
+        return("marks=",this.marks);
     },
-}
+};
 console.log(student);
-student.printmarks();
+console.log(student.printmarks());
+
+// prototype example
+/*
+let employee={
+    fname : "sumit",
+    salary:  25000,
+    company: function ()
+    {
+        console.log("mphasis");
+    },
+};
+// object 2 
+let employeedetails = {
+    designation: "associate software engineer",
+};
+console.log(employeedetails.prototype=employee);
+*/
